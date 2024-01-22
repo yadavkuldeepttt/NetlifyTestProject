@@ -1,0 +1,42 @@
+{
+	"name": "my-app",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "^4.5.10",
+		"@fullcalendar/core": "^6.1.10",
+		"@fullcalendar/daygrid": "^6.1.10",
+		"@fullcalendar/interaction": "^6.1.10",
+		"@fullcalendar/timegrid": "^6.1.10",
+		"@neoconfetti/svelte": "^1.0.0",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.20.4",
+		"@types/cookie": "^0.5.1",
+		"@types/jquery": "^3.5.22",
+		"svelte": "^4.0.5",
+		"svelte-calendar": "^3.1.6",
+		"svelte-check": "^3.4.3",
+		"svelte-fullcalendar": "^3.0.0",
+		"typescript": "^5.0.0",
+		"vite": "^4.5.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fullcalendar/list": "^6.1.10",
+		"@fullcalendar/rrule": "^6.1.10",
+		"axios": "^1.6.5",
+		"bootstrap-toggle": "^2.2.2",
+		"bootstrap4-toggle": "^3.6.1",
+		"chart.js": "^4.4.0",
+		"elizabot": "^0.0.3",
+		"rrule": "^2.8.1",
+		"simple-peer": "^9.11.1",
+		"socket.io-client": "^4.7.2"
+	}
+}
